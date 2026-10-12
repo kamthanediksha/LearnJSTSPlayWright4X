@@ -7,3 +7,5 @@ console.log (a+b) ;
 console.log (a-b) ;
 console.log (a*b) ;
 console.log (a\b) ;
+
+console.log(typeof 42, typeof "42", typeof true, typeof [1, 2]);
