@@ -1,1 +1,5 @@
-console.log("Hello World!");
+// console.log("Hello World!");
+
+
+let name = "Diksha";
+console.log(`Hello, ${name}`);
