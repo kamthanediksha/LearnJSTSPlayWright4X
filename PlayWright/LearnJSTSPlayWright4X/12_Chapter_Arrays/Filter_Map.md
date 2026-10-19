@@ -3,7 +3,7 @@ map() — For Transforming Data
 Runs a callback and builds a new array from the returned values.
 Original array remains unchanged.
 Ideal for transforming or reshaping data.
-
+![alt text](image.png)
 filter() keeps only elements that match a condition and returns a new array
 filter() — For Selecting Items
 Runs a callback and keeps only elements where the callback returns true.
