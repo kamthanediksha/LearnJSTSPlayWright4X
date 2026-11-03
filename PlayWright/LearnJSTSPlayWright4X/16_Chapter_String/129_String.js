@@ -6,12 +6,12 @@ console.log(message) ; // test completed in 320ms
 
 //Single quotes
 
-let url1 = 'https://www.google.com' ;
+let url1 = 'https://www.google.com' ; 
 console.log(url1) ; // https://www.google.com
 
 //Double quotes
 
-let url2 = "https://www.google.com" ;
+let url2 = "https://www.google.com" ; 
 console.log(url2) ; // https://www.google.com
 
 //Template literals (backticks) - allows expressions, multi-line strings and string interpolation
@@ -25,7 +25,7 @@ console.log(msg) ; // Hello, Alice! 2+2 = 4. Welcome to the website.
 let report = `Test : login
 Status : pass
 Time : 320ms` ;
-console.log(report) ;
+console.log(report) ; 
 // Test : login
 // Status : pass
 // Time : 320ms

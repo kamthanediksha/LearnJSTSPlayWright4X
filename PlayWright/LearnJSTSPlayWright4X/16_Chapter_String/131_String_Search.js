@@ -1,13 +1,13 @@
 
 let url = "https://staging.vwo.com/api/login?retry=true";
 // includes()
-url.includes("staging");
+url.includes("staging");  
 url.includes("production");
 
 // startsWith / endsWith
 url.startsWith("https");
-url.startsWith("http://");
-url.endsWith("true");
+url.startsWith("http://"); 
+url.endsWith("true"); 
 
 // indexOf / lastIndexOf
 console.log(url.indexOf("a")); // indexOf() - returns the index of the first occurrence of the specified value, otherwise -1
