@@ -11,4 +11,6 @@ getAPI() {
 }
 }
 
-let cred = new Credentials("admin","")
+let cred = new Credentials("admin","#secret_key_1234");
+console.log(cred.user);
+//console.log(cred.#apiKey);
