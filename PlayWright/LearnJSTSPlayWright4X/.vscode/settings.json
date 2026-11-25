@@ -1,3 +1,7 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "code-runner.cwd": "$workspaceRoot",
+    "code-runner.executorMap": {
+        "typescript": "npx ts-node"
+    }
 }
