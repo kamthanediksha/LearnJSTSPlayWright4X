@@ -16,6 +16,7 @@ This repository contains hands-on notes and examples for learning prompt enginee
 - `02_Chapter_JS_Keywords_Identifiers/` — JavaScript engine, keyword, comment, and identifier examples, plus [Keywords&Identifirs.md](02_Chapter_JS_Keywords_Identifiers/Keywords%26Identifirs.md) with identifier rules and naming conventions.
 - `03_Chapter_JS_Literals/` — examples of JavaScript string, boolean, null, undefined, and numeric literals, including number bases, exponential notation, numeric separators, BigInt, `Infinity`, and `NaN`.
 - `04_Chapter_JS_Operators/` — arithmetic, assignment, comparison, and logical operator examples, including loose-versus-strict equality and surprising type coercion.
+- `34_Chapter_Private_Public_Protected/` — TypeScript examples for class access modifiers, including `public`, `private`, and `protected` properties and methods.
 
 The keywords and identifiers lessons cover reserved words, case sensitivity, valid identifier starting characters (`a-z`, `A-Z`, `_`, and `$`), and common naming styles such as camelCase and PascalCase.
 
@@ -48,6 +49,12 @@ node 04_Chapter_JS_Operators/24_Confusing_Comparsion.js
 ```
 
 The operators examples demonstrate arithmetic results, assignment, boolean comparisons, logical operators, and why loose equality (`==`) can produce surprising results compared with strict equality (`===`).
+
+Run the private, public, and protected example with:
+
+```sh
+npx ts-node 34_Chapter_Private_Public_Protected/236_PPP.ts
+```
 
 ## Run the Selenium tests
 
